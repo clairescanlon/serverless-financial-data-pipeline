@@ -1,9 +1,7 @@
 # Serverless Financial Data Pipeline
 This project aims to create a fully serverless ETL pipeline on AWS for financial data management. It addresses current challenges in data quality and compliance while preparing for future scalability. The pipeline automates data ingestion, processing, and visualization, enhancing operational efficiency and decision-making.
 
-> [!NOTE]
-> This is currently under construction. Check back again soon.
-> If you need additional information, send me an email. 
+
 
 **View the full project case study on my portfolio:** 
 [How I Increased Data Management Efficiency by 50% with an AWS ETL Pipeline](https://claire-scanlon.com/aws-data-pipeline/)
@@ -29,6 +27,9 @@ The data included in this repository is purely synthetic and for demonstration p
 *  _Coming Soon_
 
 ## Code Samples
+> [!NOTE]
+> This is currently under construction. Check back again soon.
+> If you need additional information, send me an email. 
 * AWS Lambda Function - _Coming Soon_
 * Data Validation and Transformation  - _Coming Soon_
 * S3 File Upload Handling  - _Coming Soon_
