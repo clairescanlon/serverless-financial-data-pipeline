@@ -1,5 +1,5 @@
 # Serverless Financial Data Pipeline
-This project builds a fully serverless end-to-end ETL pipeline on AWS. Enforces strict compliance, encryption, and audit logging for financial services compliance.
+This project aims to create a fully serverless ETL pipeline on AWS for financial data management. It addresses current challenges in data quality and compliance while preparing for future scalability. The pipeline automates data ingestion, processing, and visualization, enhancing operational efficiency and decision-making.
 
 > [!NOTE]
 > This is currently under construction. Check back again soon. If you need additional information, send me an email. 
@@ -25,7 +25,12 @@ This project builds a fully serverless end-to-end ETL pipeline on AWS. Enforces 
 * [Coming Soon]
 
 ## Code Samples
-[Coming Soon]
+AWS Lambda Function [Coming Soon]
+Data Validation and Transformation [Coming Soon]
+S3 File Upload Handling [Coming Soon]
+Database Code [Coming Soon]
+Code Testing [Coming Soon]
+Qlik Sense Script to Load Data [Coming Soon]
 
 ## Data & Security
 The data included in this repository is purely synthetic and for demonstration purposes only. It does not contain any real client, proprietary, or personally identifiable information (PII). 
