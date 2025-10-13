@@ -25,6 +25,9 @@ The data included in this repository is purely synthetic and for demonstration p
 * Qlik Sense: Interactive analytics and visualization layer enabling users to explore, filter and generate real-time financial reports securely
 
 ## Features
+> [!NOTE]
+> This is currently under construction. Check back again soon.
+> If you need additional information, send me an email. 
 * Data Pipelines
 * ETL (Extract, Transform, Load)
 * Scalable Data Architecture
@@ -35,6 +38,7 @@ The data included in this repository is purely synthetic and for demonstration p
 * Automated Data Ingestion and Processing
 * Metadata Management
 * Relational Database
+* Data Lineage Tracking
 *  _Coming Soon_
 
 ## Code Samples
