@@ -31,15 +31,18 @@ The data included in this repository is purely synthetic and for demonstration p
 * Data Pipelines
 * ETL (Extract, Transform, Load)
 * Scalable Data Architecture
+* Event-Driven Architecture
 * Financial Data Compliance
-* Data Modeling
 * Database Normalization
 * Error Handling and Monitoring
-* Automated Data Ingestion and Processing
 * Metadata Management
 * Relational Database
 * Data Lineage Tracking
-*  _Coming Soon_
+* Data Validation
+* Schema Enforcement
+* Database Indexing & Optimization
+* End-to-End Encryption
+* Audit Logging & Access Monitoring
 
 ## Code Samples
 > [!NOTE]
