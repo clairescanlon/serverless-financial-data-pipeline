@@ -5,21 +5,7 @@ This project builds a fully serverless end-to-end ETL pipeline on AWS. Enforces 
 > This is currently under construction. Check back again soon. If you need additional information, send me an email. 
 
 **View the full project case study on my portfolio:** 
-[Link Coming Soon]
-
-## Tech Stack
-* AWS Lambda
-* Amazon S3
-* Amazon Aurora Serverless (PostgreSQL-Compatible)
-* Qlik Sense
-* Amazon CloudWatch
-* AWS Identity and Access Management (IAM)
-* Amazon SQS (Simple Queue Service)
-* AWS Key Management Service (KMS)
-* AWS Secrets Manager
-* AWS Config
-* AWS CloudTrail
-* [Coming Soon]
+[How I Increased Data Management Efficiency by 50% with an AWS ETL Pipeline](https://claire-scanlon.com/aws-data-pipeline/)
 
 ## Languages Used
 * Python
