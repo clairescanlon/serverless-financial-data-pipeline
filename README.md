@@ -1,5 +1,5 @@
 # Serverless Financial Data Pipeline
-This project aims to create a fully serverless ETL pipeline on AWS for financial data management. It addresses current challenges in data quality and compliance while preparing for future scalability. The pipeline automates data ingestion, processing, and visualization, enhancing operational efficiency and decision-making.
+This project aims to create a fully serverless ETL pipeline on AWS for financial data management. It addresses current challenges in data quality and compliance while preparing for future scalability. The pipeline automates data ingestion, processing, and visualization.
 
 
 
