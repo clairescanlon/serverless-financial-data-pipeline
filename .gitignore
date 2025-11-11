@@ -1,2 +1,109 @@
-# Serverless Financial Data Pipeline
-Will update as project grows
+# Serverless Financial Data Pipeline - .gitignore
+
+# Secrets & Credentials
+.env*
+.aws/
+*.key
+*.pem
+secrets*
+credentials*
+api_key*
+private_keys/
+
+# Real Data (NEVER commit)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.pickle
+*.db
+*.sqlite*
+/data/
+/backups/
+
+# Confidential Client Data
+/transactions/
+/transaction_data/
+*_transaction*.csv
+*_transaction*.xlsx
+*_transaction*.sql
+*_transaction*.json
+*_transaction*.parquet
+
+/participants/
+/participant_data/
+*_participant*.csv
+*_participant*.xlsx
+
+/sponsors/
+/sponsor_data/
+*_sponsor*.csv
+*_sponsor*.xlsx
+
+# PII (Personally Identifiable Information)
+*_names.csv
+*_email*.csv
+*_phone*.csv
+*_address*.csv
+*_ssn*.csv
+*_person*.csv
+/pii/
+/personal_data/
+
+# Database & Backups
+*.sql
+*.dump
+*.backup
+*.sql.gz
+database_backup/
+aurora_backups/
+rds_exports/
+
+# Python & Dependencies
+venv/
+env/
+.venv
+__pycache__/
+*.py[cod]
+*.pyc
+.pytest_cache/
+.coverage
+*.egg-info/
+Pipfile.lock
+poetry.lock
+
+# Build & Deployment
+build/
+dist/
+*.zip
+*.whl
+*.tar.gz
+lambda_builds/
+node_modules/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+.~lock.*
+
+# Logs & Temp
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+
+# Docker & Config
+docker-compose.override.yml
+config.local.*
+*_local.yaml
+*_local.json
