@@ -4,6 +4,11 @@ This project aims to create a fully serverless ETL pipeline on AWS for financial
 **View the full project case study on my portfolio:** 
 [How I Increased Data Management Efficiency by 50% with an AWS ETL Pipeline](https://claire-scanlon.com/aws-data-pipeline/)
 
+## Project Structure </br>
+> [!NOTE]
+> This is currently under construction. Check back again soon.
+
+
 ## Data Handling & Confidentiality </br>
 All data provided here is **example or synthetic data only**. </br>
 ✓ No real client, customer, or proprietary information included </br>
