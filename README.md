@@ -1,6 +1,17 @@
 # Serverless Financial Data Pipeline
 This project aims to create a fully serverless ETL pipeline on AWS for financial data management. It addresses current challenges in data quality and compliance while preparing for future scalability. The pipeline automates data ingestion, processing, and visualization.
 
+## Tech Stack
+* Amazon S3
+* AWS Lambda
+* Amazon Aurora PostgreSQL
+* QlikSense
+* AWS CloudWatch
+* AWS CloudTrail
+* AWS Secrets Manager
+* IAM
+
+
 ## Core Tables
 ### Accounts Table
 * Customer accounts
