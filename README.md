@@ -1,6 +1,17 @@
 # Serverless Financial Data Pipeline
 This project aims to create a fully serverless ETL pipeline on AWS for financial data management. It addresses current challenges in data quality and compliance while preparing for future scalability. The pipeline automates data ingestion, processing, and visualization.
 
+## Core Tables
+* ACCOUNTS table
+Customer accounts
+
+* TRANSACTIONS table
+Account cash flows, trades, payments
+
+* POSITIONS table
+Current holdings or exposures
+
+
 ## Project Structure </br>
 ### sql/ folder 
 * All database‑related scripts.
