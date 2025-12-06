@@ -12,6 +12,7 @@ This project aims to create a fully serverless ETL pipeline on AWS for financial
 * IAM
 * Amazon SNS
 * AWS Config
+* AWS KMS 
 
 
 ## Core Tables
