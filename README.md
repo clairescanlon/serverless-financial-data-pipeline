@@ -2,6 +2,33 @@
 This project aims to create a fully serverless ETL pipeline on AWS for financial data management. It addresses current challenges in data quality and compliance while preparing for future scalability. The pipeline automates data ingestion, processing, and visualization.
 
 ## Project Structure </br>
+### sql/ folder 
+* All database‑related scripts.
+
+### src/ folder 
+* Actual code for the pipeline.
+
+### docs/ folder 
+* Project documentation for humans.
+
+### architecture/ folder 
+* High-level visuals and diagrams.
+
+### tests/ folder 
+* Scripts for testing and validation of logic.
+
+### config/ folder
+* Settings for different environments.
+
+### template.yaml file 
+* AWS “blueprint” describing infrastructure as code.
+
+### README.md file 
+* High-level overview for this project.
+
+### .gitignore file 
+* Prevents committing secrets and sensitive data.
+
 > [!NOTE]
 > This is currently under construction. Check back again soon.
 
