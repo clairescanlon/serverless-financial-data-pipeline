@@ -10,6 +10,7 @@ This project aims to create a fully serverless ETL pipeline on AWS for financial
 * AWS CloudTrail
 * AWS Secrets Manager
 * IAM
+* Amazon SNS
 
 
 ## Core Tables
