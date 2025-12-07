@@ -1,6 +1,9 @@
 # Serverless Financial Data Pipeline
 Production-grade ETL pipeline for processing financial transactions in real-time. 
 
+> [!NOTE]
+> This project is currently under active development. Check back regularly for updates.
+
 ## Overview
 ETL (Extract, Transform, Load) pipeline for processing financial transactions in real-time. The pipeline handles millions of transactions daily using AWS serverless services. The pipeline processes millions of transactions daily with minimal operational overhead.
 
