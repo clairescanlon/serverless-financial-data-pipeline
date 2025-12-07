@@ -142,8 +142,23 @@ This project demonstrates serverless data engineering patterns and AWS best prac
 
 This project was originally developed for confidential client work. It has been redesigned and published as a public portfolio project to demonstrate expertise in AWS serverless architecture, ETL pipeline design, and data engineering patterns without disclosing any confidential client information.
 
-## License
-[details needed]
+## License & Usage
+
+This project is **proprietary software** provided for portfolio demonstration purposes only.
+
+**Permitted Uses:**
+- View and study this code for personal learning
+- Review during job interviews or technical evaluations
+- Discuss in technical interviews with potential employers
+- Fork and modify for personal, non-commercial projects
+
+**NOT Permitted:**
+- Commercial use of any kind
+- Incorporation into products or services
+- Redistribution or sharing with others
+- Use by previous employers or their affiliates
+
+See the `LICENSE` and `NOTICE.md` files for complete terms and restrictions.
 
 > [!NOTE]
 > This project is currently under active development. Check back regularly for updates.
