@@ -5,6 +5,53 @@ Production-grade ETL pipeline for processing financial transactions in real-time
 ETL (Extract, Transform, Load) pipeline for processing financial transactions in real-time. The pipeline handles millions of transactions daily using AWS serverless services. The pipeline processes millions of transactions daily with minimal operational overhead.
 
 ## Architecture
+```
+┌─────────────────────────────┐
+│ S3 Bucket │
+│ (Financial Data Source) │
+└──────────────┬──────────────┘
+│
+▼
+┌──────────────────────────────────┐
+│ AWS Lambda Function │
+│ - Parse transactions │
+│ - Validate schema │
+│ - Enrich with metadata │
+└──────────────┬───────────────────┘
+│
+▼
+┌──────────────────────────────────┐
+│ Amazon SQS Queue + DLQ │
+│ - Message buffering │
+│ - Error handling │
+│ - Automatic retries │
+└──────────────┬───────────────────┘
+│
+▼
+┌──────────────────────────────────┐
+│ Amazon Aurora PostgreSQL │
+│ - Normalized schema │
+│ - Optimized indexes │
+│ - High availability │
+└──────────────┬───────────────────┘
+│
+▼
+┌──────────────────────────────────┐
+│ CloudWatch Monitoring │
+│ - Real-time dashboards │
+│ - Cost tracking │
+│ - Performance metrics │
+└──────────────────────────────────┘
+```
+
+**Data Flow:**
+1. Raw transaction files land in S3
+2. Lambda function processes each transaction (sub-second latency)
+3. Valid transactions go to SQS for database loading
+4. Failed transactions go to Dead Letter Queue (DLQ) for review
+5. Aurora database stores normalized data
+6. CloudWatch tracks pipeline health and costs
+
 
 ## Key Features
 * **Real-time processing**: Handles incoming transactions with sub-second latency
