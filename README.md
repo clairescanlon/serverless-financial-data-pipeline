@@ -93,32 +93,6 @@ ETL (Extract, Transform, Load) pipeline for processing financial transactions in
 
 
 ## Project Structure </br>
-### sql/ folder 
-* All database‑related scripts.
-
-### src/ folder 
-* Actual code for the pipeline.
-
-### docs/ folder 
-* Project documentation for humans.
-
-### architecture/ folder 
-* High-level visuals and diagrams.
-
-### tests/ folder 
-* Scripts for testing and validation of logic.
-
-### config/ folder
-* Settings for different environments.
-
-### template.yaml file 
-* AWS “blueprint” describing infrastructure as code.
-
-### README.md file 
-* High-level overview for this project.
-
-### .gitignore file 
-* Prevents committing secrets and sensitive data.
 
 > [!NOTE]
 > This is currently under construction. Check back again soon.
